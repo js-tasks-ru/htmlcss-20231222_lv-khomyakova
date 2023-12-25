@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #212429;
+    color: #d8dce0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    background-color: #ACB5BD;
+    padding: 20px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+main article {
+    background-color: rgba(172, 181, 189, 0.20);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 0.15);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #18202c;
+    color: #d8dce0;
+    font-weight: bold;
+}
