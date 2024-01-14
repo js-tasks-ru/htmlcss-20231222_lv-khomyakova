@@ -2,17 +2,38 @@
 <!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
+        <meta charset="utf-8" />
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Кошка
+                </summary>
+                <p class="accordion__content">
+                    — домашнее животное, одно из наиболее популярных «животных-компаньонов». С точки зрения научной систематики, домашняя кошка — млекопитающее семейства кошачьих отряда хищных. Одни исследователи рассматривают домашнюю кошку как подвид дикой кошки, другие — как отдельный биологический вид.
+                </p>
+            </details>
+
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Собака
+                </summary>
+                <p class="accordion__content">
+                    — домашнее животное, одно из наиболее популярных животных-компаньонов. Домашняя собака была описана как самостоятельный биологический вид Canis familiaris Линнеем в 1758 году; в настоящее время данное научное название признаётся организациями, такими как Американское общество маммалогов.
+                </p>
+            </details>
+
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Хомяк
+                </summary>
+                <p class="accordion__content">
+                    — подсемейство грызунов семейства хомяковых. Включает 19 видов, относящихся к семи родам. Стали популярными домашними питомцами. Самым известным видом хомяка является золотой или сирийский хомячок, который чаще всего используется в качестве домашних животных.
+                </p>
+            </details>
+        </div>
     </body>
 </html>
