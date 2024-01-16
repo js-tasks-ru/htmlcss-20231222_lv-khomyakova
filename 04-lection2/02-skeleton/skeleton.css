@@ -17,9 +17,6 @@
 .skeleton__image {
     height: 64px;
     width: 64px;
-}
-
-.skeleton__image {
     background-color: var(--grey-2);
     border-radius: 50%;
 }
