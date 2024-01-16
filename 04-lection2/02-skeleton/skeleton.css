@@ -1,0 +1,51 @@
+.skeleton {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    background-color: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 24px 32px;
+}
+
+.skeleton__top {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.skeleton__image {
+    height: 64px;
+    width: 64px;
+}
+
+.skeleton__image {
+    background-color: var(--grey-2);
+    border-radius: 50%;
+}
+
+.skeleton__lines {
+    display: flex;
+    flex-direction: column;
+    flex: 1 20px;
+    row-gap: 8px;
+}
+
+.skeleton__line {
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(93deg,
+        var(--gradient-1) 6.44%,
+        var(--gradient-2) 38.47%,
+        var(--gradient-3) 56.48%,
+        var(--gradient-4) 77.5%,
+        var(--gradient-1) 100%);
+}
+
+.skeleton__line_small {
+    width: 50%;
+}
+
+.skeleton__line_medium {
+    width: 75%;
+}
