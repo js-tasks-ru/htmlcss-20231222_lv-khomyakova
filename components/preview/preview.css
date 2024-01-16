@@ -1,4 +1,4 @@
 .preview {
-    background-color: var(--bg-color);
-    height: 100%;
+    background-color: var(--grey-1);
+    padding: 60px 0;
 }
