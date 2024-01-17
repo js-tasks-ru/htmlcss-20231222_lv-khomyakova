@@ -72,3 +72,11 @@
 .histogram__item_extra-small {
     height: 10%;
 }
+
+.histogram_preview {
+    row-gap: 29px;
+    padding: 10px 24px 20px;
+    font-size: 12px;
+    line-height: 14px;
+    width: 300px;
+}
