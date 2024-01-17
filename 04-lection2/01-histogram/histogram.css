@@ -1,7 +1,7 @@
 .histogram {
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 39px;
     background-color: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
@@ -15,7 +15,6 @@
 
 .histogram__header {
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
 }
 
@@ -38,6 +37,7 @@
 .histogram__link {
     text-decoration: none;
     color: var(--blue);
+    margin-top: 3px;
 }
 
 .histogram__chart {
