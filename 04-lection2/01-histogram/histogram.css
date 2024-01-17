@@ -13,6 +13,14 @@
     line-height: 24px;
 }
 
+.histogram_preview {
+    row-gap: 29px;
+    padding: 10px 24px 20px;
+    font-size: 12px;
+    line-height: 14px;
+    width: 300px;
+}
+
 .histogram__header {
     display: flex;
     justify-content: space-between;
