@@ -34,6 +34,8 @@
     --primary-hover: var(--blue-dark);
     --secondary: var(--purple);
     --secondary-hover: var(--purple-dark);
+
+    --shadow-color: rgba(33, 36, 41, 0.05);
 }
 
 html {
