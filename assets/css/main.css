@@ -39,7 +39,7 @@
     --shadow-color: rgba(33, 36, 41, 0.05);
     --text-blue: #334D6E;
     --text-grey: #90A0B7;
-    --backdrop-color: #C4C4C4;
+    --backdrop-color: rgba(196, 196, 196, 0.5);
 }
 
 html {
