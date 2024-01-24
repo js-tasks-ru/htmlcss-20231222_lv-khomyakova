@@ -1,0 +1,9 @@
+.main {
+    background-color: var(--grey-1);
+}
+
+.main__card {
+    width: auto;
+    height: auto;
+    margin: 36px 0;
+}

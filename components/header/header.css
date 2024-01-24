@@ -12,3 +12,8 @@
     font-weight: 500;
     line-height: 64px;
 }
+
+.header_inner {
+    border-bottom: none;
+    padding: 0;
+}
