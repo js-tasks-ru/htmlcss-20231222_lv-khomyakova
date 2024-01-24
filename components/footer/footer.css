@@ -27,6 +27,7 @@
 }
 
 .footer_inner {
+    height: 130px;
     align-self: center;
     justify-self: center;
     border-top: none;

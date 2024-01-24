@@ -11,5 +11,5 @@
 
 .page_inner {
     display: grid;
-    grid-template-rows: 82px 1fr 130px;
+    grid-template-rows: auto 1fr auto;
 }

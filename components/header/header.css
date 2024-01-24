@@ -14,6 +14,7 @@
 }
 
 .header_inner {
+    height: 82px;
     border-bottom: none;
     padding: 0;
 }
