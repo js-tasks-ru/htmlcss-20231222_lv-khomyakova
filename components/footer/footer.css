@@ -28,8 +28,8 @@
 
 .footer_inner {
     height: 130px;
-    align-self: center;
-    justify-self: center;
+    display: flex;
+    align-items: center;
     border-top: none;
     background-color: inherit;
     padding: 0;
