@@ -2,8 +2,13 @@
     background-color: var(--grey-1);
 }
 
+.main__content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100%;
+    gap: 56px;
+}
+
 .main__card {
-    width: auto;
-    height: auto;
     margin: 36px 0;
 }

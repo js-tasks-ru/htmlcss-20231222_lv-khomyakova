@@ -9,6 +9,7 @@
 @import '../../04-lection2/01-histogram/histogram.css';
 @import '../../components/menu/menu.css';
 @import '../../components/main/main.css';
+@import '../../components/logo/logo.css';
 
 :root {
     --white: #ffffff;

@@ -27,18 +27,20 @@
 }
 
 .footer_inner {
-    height: 130px;
     display: flex;
     align-items: center;
     border-top: none;
     background-color: inherit;
     padding: 0;
+}
+
+.footer__text {
     color: var(--grey-3);
     font-family: Inter, 'sans-serif';
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 130px;
     letter-spacing: 0.48px;
     text-transform: uppercase;
 }

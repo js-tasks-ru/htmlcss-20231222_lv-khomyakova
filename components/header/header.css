@@ -13,8 +13,17 @@
     line-height: 64px;
 }
 
+.header__panel {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+
+.header__nav {
+
+}
+
 .header_inner {
-    height: 82px;
     border-bottom: none;
     padding: 0;
 }
