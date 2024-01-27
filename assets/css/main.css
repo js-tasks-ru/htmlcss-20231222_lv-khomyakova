@@ -37,9 +37,9 @@
     --secondary-hover: var(--purple-dark);
 
     --shadow-color: rgba(33, 36, 41, 0.05);
-
     --text-blue: #334D6E;
     --text-grey: #90A0B7;
+    --backdrop-color: rgba(196, 196, 196, 0.5);
 }
 
 html {
