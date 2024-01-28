@@ -12,6 +12,10 @@
 @import '../../05-lection3/02-modal/modal.css';
 @import '../../05-lection3/03-calendar/calendar.css';
 @import '../../06-lection4/01-avatar/avatar.css';
+@import '../../components/menu/menu.css';
+@import '../../components/main/main.css';
+@import '../../components/logo/logo.css';
+@import '../../components/component-description/component-description.css';
 
 :root {
     --white: #ffffff;
