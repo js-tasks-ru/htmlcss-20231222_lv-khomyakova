@@ -11,6 +11,7 @@
 @import '../../components/menu/menu.css';
 @import '../../components/main/main.css';
 @import '../../components/logo/logo.css';
+@import '../../components/component-description/component-description.css';
 
 :root {
     --white: #ffffff;

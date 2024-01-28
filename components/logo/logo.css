@@ -4,8 +4,6 @@
 }
 
 .logo__item {
-    height: 30px;
-    width: 30px;
     border: 15px solid var(--black);
     box-sizing: border-box;
 }
