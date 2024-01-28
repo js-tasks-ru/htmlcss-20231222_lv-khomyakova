@@ -4,8 +4,9 @@
     padding: 28px 26px 32px;
     max-width: 400px;
 }
+
 .calendar_preview {
-    width: 100%;
+    width: 65%;
 }
 
 .calendar__wrapper {
@@ -63,4 +64,27 @@
 .calendar__item_selected-edge {
     color: var(--white);
     background-color: var(--blue);
+}
+
+@media screen and (max-width: 375px) {
+    .calendar_preview {
+        width: 90%;
+        border: none;
+        padding: 0;
+    }
+
+    .calendar_preview .calendar__item {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .calendar_preview .calendar__item_month {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .calendar_preview .calendar__item_day {
+        font-size: 9px;
+        line-height: 14px;
+    }
 }

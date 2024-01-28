@@ -59,3 +59,28 @@
     font-weight: 400;
     line-height: 24px
 }
+
+@media screen and (max-width: 375px) {
+    .modal_preview .modal__wrapper {
+        height: 70%;
+        width: 76%;
+        padding: 8px;
+        overflow: hidden;
+    }
+
+    .modal_preview .modal__title {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 4px;
+    }
+
+    .modal_preview .modal__content {
+        font-size: 12px;
+        line-height: 14px
+    }
+
+    .modal_preview .modal__close {
+        top: 8px;
+        right: 8px;
+    }
+}

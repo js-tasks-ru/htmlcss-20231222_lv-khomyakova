@@ -80,3 +80,19 @@
     line-height: 14px;
     width: 300px;
 }
+
+@media screen and (max-width: 375px) {
+    .histogram_preview {
+        padding: 8px 10px 12px;
+        row-gap: 6px;
+    }
+
+    .histogram_preview .histogram__count {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .histogram_preview .histogram__chart {
+        height: 30px;
+    }
+}

@@ -3,6 +3,10 @@
     position: relative;
 }
 
+.tooltip_preview {
+    transform: translateY(100%);
+}
+
 .tooltip_preview .tooltip__text {
     display: block;
 }

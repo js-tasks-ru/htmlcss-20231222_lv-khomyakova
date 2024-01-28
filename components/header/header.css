@@ -12,3 +12,15 @@
     font-weight: 500;
     line-height: 64px;
 }
+
+@media screen and (max-width: 375px) {
+    .header {
+        padding: 49px 16px 69px;
+        color: var(--grey-4);
+    }
+
+    .header__title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

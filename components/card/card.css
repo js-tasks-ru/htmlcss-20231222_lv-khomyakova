@@ -27,3 +27,28 @@
     font-weight: 500;
     line-height: normal;
 }
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 164px;
+        height: 210px;
+        padding: 0;
+    }
+
+    .card__content {
+        margin-bottom: 0;
+        border-bottom: 1px solid var(--grey-2);
+        padding: 8px;
+    }
+
+    .card__title {
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Inter, 'sans-serif';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
