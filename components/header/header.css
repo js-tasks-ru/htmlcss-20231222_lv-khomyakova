@@ -1,7 +1,7 @@
 .header {
     background-color: var(--white);
     border-bottom: 1px solid var(--grey-2);
-    padding: 96px 0 78px;
+    padding-top: 25px;
     color: var(--black);
 }
 
@@ -11,27 +11,48 @@
     font-style: normal;
     font-weight: 500;
     line-height: 64px;
+    margin: 40px 0;
 }
 
 .header__panel {
     display: flex;
     justify-content: space-between;
-    margin: 24px 0;
+    align-items: center;
+}
+
+.header__menu-toggle {
+    display: none;
 }
 
 .header__nav {
-
+    display: block;
 }
 
 .header_inner {
     border-bottom: none;
-    padding: 0;
+    padding-bottom: 25px;
 }
 
 @media screen and (max-width: 375px) {
     .header {
-        padding: 49px 16px 69px;
+        padding: 16px;
         color: var(--grey-4);
+    }
+
+    .header__panel {
+        position: relative;
+        justify-content: center;
+    }
+
+    .header__menu-toggle {
+        display: block;
+        position: absolute;
+        left: 0;
+        cursor: pointer;
+    }
+
+    .header__nav {
+        display: none;
     }
 
     .header__title {
