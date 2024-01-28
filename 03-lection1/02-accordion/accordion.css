@@ -28,12 +28,14 @@
     padding: 24px 32px 32px;
 }
 
-.accordion__item[open] .accordion__summary:after {
-    transform: rotate(225deg) translate(-5px,-5px);
+.accordion__item[open] .accordion__icon {
+    transform: rotate(180deg);
 }
 
 .accordion__summary {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
     list-style-type: none;
     padding: 0;
@@ -44,20 +46,32 @@
     display: none
 }
 
-.accordion__summary:after {
-    display: block;
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 10px;
-    height: 10px;
-    border-bottom: 2px solid var(--grey-4);
-    border-right: 2px solid var(--grey-4);
-    transform-origin: center;
-    transform: rotate(45deg);
+.accordion__icon {
     transition: 0.2s ease-out;
+    transform-origin: center;
 }
+
+/*    использование маркера через псевдоэлемент (вместо элемента accordion__icon)   */
+
+/*.accordion__summary:after {*/
+/*    display: block;*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+
+/*    border-bottom: 2px solid var(--grey-4);*/
+/*    border-right: 2px solid var(--grey-4);*/
+/*    transform-origin: center;*/
+/*    transform: rotate(45deg);*/
+/*    transition: 0.2s ease-out;*/
+/*}*/
+
+/*.accordion__item[open] .accordion__summary:after {*/
+/*    transform: rotate(225deg) translate(-5px,-5px);*/
+/*}*/
 
 .accordion__content {
     margin: 16px 0 0 ;
