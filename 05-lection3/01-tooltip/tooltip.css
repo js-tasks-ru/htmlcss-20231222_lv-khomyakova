@@ -3,6 +3,10 @@
     position: relative;
 }
 
+.tooltip_preview .tooltip__text {
+    display: block;
+}
+
 .tooltip__trigger {
     cursor: pointer;
 }

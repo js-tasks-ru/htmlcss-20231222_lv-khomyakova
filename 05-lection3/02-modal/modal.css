@@ -9,6 +9,18 @@
     background-color: var(--backdrop-color);
 }
 
+.modal_preview {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.modal_preview .modal__wrapper{
+    height: 60%;
+    width: 60%;
+    padding: 20px 30px 23px;
+}
+
 .modal__close {
     position: absolute;
     top: 12px;
