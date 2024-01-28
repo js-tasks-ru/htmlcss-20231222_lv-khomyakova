@@ -12,3 +12,18 @@
     font-weight: 500;
     line-height: 64px;
 }
+
+.header__panel {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+
+.header__nav {
+
+}
+
+.header_inner {
+    border-bottom: none;
+    padding: 0;
+}

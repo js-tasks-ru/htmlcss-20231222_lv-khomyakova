@@ -1,0 +1,10 @@
+.main {
+    background-color: var(--grey-1);
+}
+
+.main__content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+    height: 100%;
+}
