@@ -7,5 +7,15 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
 }
 
+@media screen and (max-width: 375px) {
+    .preview {
+        padding: 23px 0;
+    }
+
+    .preview__cards {
+        gap: 23px 16px;
+    }
+}
