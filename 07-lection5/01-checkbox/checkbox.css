@@ -26,7 +26,7 @@
 
 .checkbox__icon {
     fill: none;
-    color: var(--white);
+    color: transparent;
 }
 
 .checkbox__label {
@@ -55,7 +55,11 @@
 }
 
 /* checked */
-.checkbox__input:checked ~ .checkbox__state .checkbox__control {
+.checkbox__input:checked ~ .checkbox__state .checkbox__control .checkbox__icon {
+    color: var(--white);
+}
+
+.checkbox__input:checked:not(:disabled) ~ .checkbox__state .checkbox__control {
     border-color: transparent;
     background-color: var(--blue);
 }
