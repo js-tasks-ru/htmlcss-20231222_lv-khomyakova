@@ -1,6 +1,6 @@
 .toggler {
+    display: inline-block;
     position: relative;
-    cursor: pointer;
 }
 
 .toggler__input {
@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     column-gap: 12px;
+    cursor: pointer;
 }
 
 .toggler__control {
@@ -47,7 +48,7 @@
 }
 
 /* disabled */
-.toggler_disabled {
+.toggler__input:disabled ~ .toggler__state {
     pointer-events: none;
 }
 
