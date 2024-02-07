@@ -276,3 +276,18 @@ details {
 summary {
     display: list-item;
 }
+
+/* input placeholder
+   ========================================================================== */
+::-ms-input-placeholder {
+    color: var(--grey-2);
+}
+::-webkit-input-placeholder{
+    color: var(--grey-2);
+}
+:-moz-placeholder{
+    color: var(--grey-2);
+}
+::placeholder {
+    color: var(--grey-2);
+}

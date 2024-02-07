@@ -57,13 +57,11 @@
 }
 
 .input__icon_success {
-    fill: var(--blue-dark);
-    color: transparent;
+    color: var(--blue-dark);
 }
 
 .input__icon_error{
-    fill: var(--red);
-    color: transparent;
+    color: var(--red);
 }
 
 .input__trigger:focus,
@@ -74,19 +72,4 @@
 
 .input__trigger:disabled {
     background-color: var(--grey-1);
-}
-
-
-/*  placeholder  */
-::-ms-input-placeholder {
-    color: var(--grey-2);
-}
-::-webkit-input-placeholder{
-    color: var(--grey-2);
-}
-:-moz-placeholder{
-    color: var(--grey-2);
-}
-::placeholder {
-    color: var(--grey-2);
 }
