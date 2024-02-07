@@ -1,6 +1,6 @@
 .checkbox {
+    display: inline-block;
     position: relative;
-    cursor: pointer;
 }
 
 .checkbox__input {
@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     column-gap: 12px;
+    cursor: pointer;
 }
 
 .checkbox__control {
@@ -25,7 +26,6 @@
 }
 
 .checkbox__icon {
-    fill: none;
     color: transparent;
 }
 
@@ -38,11 +38,11 @@
 }
 
 /* disabled */
-.checkbox_disabled {
+.checkbox__input:disabled ~ .checkbox__state {
     pointer-events: none;
 }
 
-.checkbox__input:disabled ~ .checkbox__state .checkbox__control{
+.checkbox__input:disabled ~ .checkbox__state .checkbox__control {
     background-color: var(--grey-2);
 }
 
@@ -50,7 +50,7 @@
     color: var(--grey-2);
 }
 
-.checkbox__input:disabled ~ .checkbox__state  .checkbox__control .checkbox__icon{
+.checkbox__input:disabled ~ .checkbox__state  .checkbox__control .checkbox__icon {
     color: transparent;
 }
 
@@ -65,6 +65,6 @@
 }
 
 /* focus */
-.checkbox__input:focus ~ .checkbox__state .checkbox__label{
+.checkbox__input:focus ~ .checkbox__state .checkbox__label {
     text-decoration: underline;
 }
