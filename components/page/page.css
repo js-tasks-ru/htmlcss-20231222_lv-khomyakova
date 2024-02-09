@@ -5,6 +5,10 @@
     background-color: var(--grey-1);
 }
 
+.page__tabs {
+    flex-grow: 1;
+}
+
 .page__preview {
     flex-grow: 1;
 }
