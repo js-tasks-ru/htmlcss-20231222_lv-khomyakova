@@ -16,9 +16,9 @@
 }
 
 .toggler__control {
+    flex-shrink: 0;
     position: relative;
     width: 52px;
-    min-width: 52px;
     height: 28px;
     border: 1px solid var(--grey-2);
     border-radius: 15px;
