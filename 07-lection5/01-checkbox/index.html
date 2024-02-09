@@ -2,10 +2,56 @@
 <!-- Страница чекбокса -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../assets/css/styles.css">
         <link rel="stylesheet" href="./checkbox.css">
     </head>
     <body>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__input">
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon icon icon_16">
+                        <use href="../../assets/images/sprite-icons.svg#check"></use>
+                    </svg>
+                </div>
+                <span class="checkbox__label">Checkbox default</span>
+            </div>
+        </label>
 
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__input" checked>
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon icon icon_16">
+                        <use href="../../assets/images/sprite-icons.svg#check"></use>
+                    </svg>
+                </div>
+                <span class="checkbox__label">Checkbox checked</span>
+            </div>
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__input" disabled>
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon icon icon_16">
+                        <use href="../../assets/images/sprite-icons.svg#check"></use>
+                    </svg>
+                </div>
+                <span class="checkbox__label">Checkbox disabled</span>
+            </div>
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__input" checked disabled>
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon icon icon_16">
+                        <use href="../../assets/images/sprite-icons.svg#check"></use>
+                    </svg>
+                </div>
+                <span class="checkbox__label">Checkbox checked disabled</span>
+            </div>
+        </label>
     </body>
 </html>
