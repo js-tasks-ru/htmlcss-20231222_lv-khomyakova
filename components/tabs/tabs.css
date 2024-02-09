@@ -2,9 +2,10 @@
     border-bottom: 1px solid var(--grey-2);
 }
 
-.tabs__container {
+.tabs__menu {
     display: flex;
     flex-wrap: nowrap;
+    column-gap: 40px;
 }
 
 .tabs__input {
@@ -15,8 +16,6 @@
 
 .tabs__scroller {
     background-color: var(--white);
-    display: flex;
-    flex-wrap: nowrap;
     position: relative;
     overflow-x: auto;
 }
@@ -30,7 +29,6 @@
     color: var(--black);
     cursor: pointer;
     position: relative;
-    margin-right: 40px;
     border-bottom: 5px solid transparent;
     white-space: nowrap;
 }
